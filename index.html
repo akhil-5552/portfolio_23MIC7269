@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Akhil Portfolio</title>
+        <meta name="description" content="A portfolio showcasing my projects and skills.">
+        <link rel="icon" href="images/championship.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <nav class="navbar" role="navigation">
+            <div class="nav-container">
+                <a href="#" class="logo">GA</a>
+                    <div class="nav-toggle" id="nav-toggle">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                <ul class="nav-menu ">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skill" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="user-description fade-in" id="header-description">
+            <div class="user-description-container">
+                <h1 class="user-name">Hi, I'm <span class="cursor" id="typing"></span></h1>
+                <div class="about-user-text">
+                    <div class="about-user">
+                    <p class="about-user-para">I'm a self-driven web developer and aspiring software engineer with strong coding, communication, and problem-solving skills.</p>
+                    <ul>
+                        <li>Built 5+ responsive websites for personal and class projects.</li>
+                        <li>Solved 50+ problems on LeetCode.</li>
+                        <li>I develop AI-powered Python scripts and am expanding my Java toolkit.</li>
+                    </ul>
+                    <p class="about-user-para">I'm passionate about learning and applying new technologies to solve real-world problems.</p>
+                    <p class="about-user-para">I'm eager to join a collaborative team where I can learn, grow, and deliver impactful solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="user-image" id="user-photo">
+                <img src="images/Akhil Photo.jpg " alt="Photo" class="akhil-photo">
+            </div>
+        </header>
+        <main class="main-content " id="main-id">
+            <section class="about-me fade-in" id="about">
+                <div class="about-container">
+                    <div class="about-header">
+                        <h2 class="about-title">About Me</h2>
+                        <p class="about-subtitle">Driven by curiosity, learning, and clean code</p>
+                    </div>
+                    <div class="about-content">
+                        <p class="about-description">Hello, I am currently 3 rd year, computer science branch from VIT-AP University. I doubted my ability to write code, but now I am amazed at my progress. I have written hundreds and even thousands of lines of code, which has significantly boosted my confidence and skills  </p>
+                        <p class="about-description">I am passionate about web developement and Python developement, with experience in AI applications. I have strong foundation in responsive websites and I'm actively expanding my backend skills Node.js, Express.js, MongoDB, and Bootstrap. As a Python developer, Idevelop AI-powered applications and enjoy exploring the potential of AI technology. </p>
+                        <p class="about-description">In addition, I possess basic knowledge of vulnerabilities and pentesting. I am continuously learning more about cybersecurity to strengthen my understanding of this domain. I believe that strong problem-solving skills come from practicing algorithms, and I have solved over 50 problems on LeetCode, covering topics like arrays, linked lists, stacks/queues, recursion, and basic dynamic programming. This DSA practice has sharpened my logical thinking and prepared me to tackle challenging coding problems. </p>
+                    </div>
+                </div>
+            </section>
+            <section class="skill fade-in" id="skills">
+                <div class="skill-container">
+                    <h2 class="skill-title" id="skill">Skills</h2>
+                    <p class="skill-subtitle">Technical Skills :</p>
+                    <p class="skill-name"> HTML </p>
+                    <div class="skill-bar html">
+                        <div class="skill-level html" data-percent="90%">90%</div>
+                    </div>
+                    <p class="skill-name"> CSS </p>
+                    <div class="skill-bar css">
+                        <div class="skill-level css" data-percent="70%">70%</div>
+                    </div>
+                    <p class="skill-name"> Java </p>
+                    <div class="skill-bar java">
+                        <div class="skill-level java" data-percent="60%">60%</div>
+                    </div>
+                    <p class="skill-name"> Javascript </p>
+                    <div class="skill-bar js">
+                        <div class="skill-level js" data-percent="65%">65%</div>
+                    </div>
+                    <p class="skill-name"> Python </p>
+                    <div class="skill-bar python">
+                        <div class="skill-level python" data-percent="70%">70%</div>
+                    </div>
+                    <p class="skill-name"> DSA </p>
+                    <div class="skill-bar dsa">
+                        <div class="skill-level dsa" data-percent="60%">60%</div>
+                    </div>
+                    <p class="skill-name"> Backend-Node.js, Express.js, MongoDB</p>
+                    <div class="skill-bar backend">
+                        <div class="skill-level backend" data-percent="50%">50%</div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects fade-in" id="projects">
+                <h2 class="projects-title">Projects</h2>
+                <p class="projects-subtitle">Transforming ideas into scalable, high-performance digital experiences</p>
+                <div class="projects-container">
+                    <div class="project-list">
+                        <div class="project-item">
+                            <img src="images/js.png" loading="lazy" alt="shopping-cart" class="project-one">
+                            <h3 class="project-one-heading">Shopping cart</h3>
+                            <p class="project-one-description">It add items to cart, remove items and clear all items. </p>
+                            <p class="tools"><b>Tools :</b> HTML, CSS, Javascript </p>
+                        </div>
+                        <div class="project-item">
+                            <img src="images/API.png" loading="lazy" alt="shopping-platform" class="ptoject-two">
+                            <h3 class="project-two-heading">Shopping Platform</h3>
+                            <p class="project-two-description">It is a shopping platform, the data is from API</p>
+                            <p class="tools"><b>Tools :</b> HTML, CSS, Javascript, API</p>
+                        </div>
+                        <div class="project-item">
+                            <img src="images/Full stack.png" loading="lazy" alt="students-data" class="project-three">
+                            <h3 class="project-three-heading">Student Details Form</h3>
+                            <p class="project-three-description">It takes input details of student, stores in the database and can remove from the database.</p>
+                            <p class="tools"><b>Tools :</b> HTML, CSS, Javascript, Node.js, Express.js, MongoDB</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="contact fade-in" id="contact">
+                    <h2 class="contact-title">Let's Build Something Incredible Together</h2>
+                    <div class="contact-container">
+                        <div class="contact-details">
+                            <h3 class="contact-details-title">Get in touch</h3>
+                            <p class="contact-details-description">I'm a passionate learner and developer with hands-on experience in building projects using web technologies and programming languages like Java and Python. I'm continuously exploring new domains, refining my skills, and open to collaboration.</p>
+                            <p class="contact-details-description">Feel free to reach out—I'd love to hear from you!</p>
+                            <div class="contact-div">
+                                <p class="contact-icons"> <a title="contact-icon-responsive" href="tel:+918143605552" class="socialmedia phone-link"><i class="fa-solid fa-phone contact-icon"></i></a>+91 81436 05552</p>
+                                <p class="contact-icons"><a title="mail-icon-responsive" href="https://mail.google.com/mail/?view=cm&fs=1&to=akhilg5552@gmail.com" class="socialmedia"><i class="fa-solid fa-envelope contact-icon"></i></a>akhilg5552@gmail.com</p>
+                                <p class="contact-icons"><a title="linkendin-icon-responsive" href="https://www.linkedin.com/in/akhil-gudella-2268a9290/" class="socialmedia"><i class="fa-brands fa-linkedin contact-icon"></i></a>akhil-gudella-2268a9290</p>
+                                <p class="contact-icons"><a title="github-icon-responsive" href="https://github.com/akhil-5552" class="socialmedia"><i class="fa-brands fa-github contact-icon"></i></a>akhil-5552</p>
+                            </div>
+                        </div>
+                        <div class="contact-form" >
+                            <form action="#contact" class="contactForm" id="contact-form">
+                                <label for="Name" class="form-name">Name:</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+                                <label for="Email" class="form-name">Email:</label>
+                                <input type="text" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+                                <label for="Organization" class="form-name">Organization :</label>
+                                <input type="text" id="organization"name="organization" class="form-input" placeholder="Enter your organization" required>
+                                <label for="Message" class="form-name">Message:</label>
+                                <textarea id="message" name="message"class="form-input"placeholder="Describe about your project, and challenges" required></textarea>
+                                <button type="submit" class="form-button"id="send-message-button"><i class="fa-solid fa-paper-plane"></i>Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <p class="footer-copy"> &copy; 2025 G Akhil. All rights reserved. </p>
+                <p class="footer-description">Made by Akhil Software developement center </p>
+            </footer>
+
+            <script src="script.js"></script>
+        </body>
+    </html>
